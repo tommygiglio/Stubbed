@@ -56141,25 +56141,24 @@
         }
       }
     ],
-    
-	audiences = [
+  "audiences": [
   {
-    queryKey: {
-      begin: '2015-12-16T00:00:00Z',
-      end: '2016-04-05T00:00:00Z',
-      primaryMetric: 'convert|test_it_out_button_optimizely_landing_page_',
-      secondaryMetrics: {
+    "queryKey": {
+      "begin": "2015-12-16T00:00:00Z",
+      "end": "2016-04-05T00:00:00Z",
+      "primaryMetric": "convert|test_it_out_button_optimizely_landing_page_",
+      "secondaryMetrics": {
         "revenue": "revenue",
         "view_activated|4135394367":"view_activated|4135394367"
       },
-      tertiaryMetrics: {},
-      audienceVariations: {
+      "tertiaryMetrics": {},
+      "audienceVariations": {
         "4133294308-4142230430": "4133294308-4142230430",
         "4124786017-4134591994": "4124786017-4134591994",
         "4135810959-4126972451": "4135810959-4126972451"
       }
     },
-    results: {
+    "results": {
       "4133294308-4142230430": {
         "audienceId": 4133294308,
         "variationId": 4142230430,
@@ -57025,6 +57024,7 @@
       }
     }
   }
-]
-  }
+]  
+	
+	  }
 }
